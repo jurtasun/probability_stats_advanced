@@ -1,4 +1,4 @@
-# RCDS - Further hypothesis testing
+# RCDS - Advanced probability & statistical inference
 
 ## Dr. Jesús Urtasun Elizari
 
