@@ -4,6 +4,7 @@
 
 # Importing libraries
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Function applying Bayes' Theorem
 def bayes_theorem(prior, likelihood, evidence):
@@ -15,15 +16,15 @@ def total_probability(likelihoods, priors):
 
 
 # Example 1: rolling dice..........................................................................
-
 print("Example 1: rolling dice:\n")
+
 # Initial priors
 P_H1 = 0.5  # Prior: biased die
 P_H2 = 0.5  # Prior: fair die
 print(f"Prior probabilities:\nDie is biased, P(H1) = {P_H1}\nDie is fair, P(H2) = {P_H2}\n")
 
 # First roll: rolled a 6
-P_E_given_H1 = 0.5  # Likelihood of rolling 6 on biased die
+P_E_given_H1 = 1/2  # Likelihood of rolling 6 on biased die
 P_E_given_H2 = 1/6  # Likelihood of rolling 6 on fair die
 
 # Total probability of evidence
@@ -50,8 +51,8 @@ print(f"After 2nd roll of 6: Probability that the die is biased: {P_H1_given_E2_
 
 
 # Example 2: medical test .........................................................................
-
 print("Example 2: medical test:\n")
+
 # Initial priors
 P_H = 0.01  # Prior: having the disease
 P_not_H = 0.99  # Prior: not having the disease
