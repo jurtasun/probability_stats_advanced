@@ -1,47 +1,54 @@
-# RCDS - Advanced probability & statistical inference
+## RCDS - Advanced probability & statistical inference
 
-## Dr. Jesús Urtasun Elizari
+### Dr. Jesús Urtasun Elizari
 
-## Imperial College London - 2024 / 2025
+### Imperial College London - 2024 / 2025
 
 <img src="/readme_figures/grad-school-logo.png">
 
 ### Find the content of the course in GitHub:
 [https://github.com/jurtasun/probability_stats_advanced](https://github.com/jurtasun/probability_stats_advanced)
 
-This course provides an intermediate level approach to the field of probability and statistical inference. Building on top of the introductiory course [https://github.com/jurtasun/probability_stats_intro](https://github.com/jurtasun/probability_stats_intro), the topics covered here will include deeper exploration of hypothesis testing, linear models, and briefly introduce bayesian statistics. The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
+This course provides an intermediate level approach to the field of probability and statistical inference. 
+Building on top of the introductiory course [https://github.com/jurtasun/probability_stats_intro](https://github.com/jurtasun/probability_stats_intro), 
+the topics covered here will include deeper exploration of hypothesis testing, linear models, and briefly introduce bayesian statistics. 
+The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
 
-The course is organized in three chapters, covering topics listed below. All will be followed by a practical session and hands-on coding, both in Python and R. No prior experience on statistics or programming is required for the attendance of this course.
+The course is organized in three chapters, covering topics listed below. 
+All will be followed by a practical session and hands-on coding, both in Python and R. 
+No prior experience on statistics or programming is required for the attendance of this course.
 
-# Roadmap of the course
+## Roadmap of the course
 
-## Chapter 1. Parameter estimation and hypothesis testing.
+### Chapter 1. Parameter estimation & hypothesis testing.
 
 - Parameter estimation. Recap hypothesis testing.
 - Comparing mean values. The t-test.
 - Comparing variances. The F-test.
-- Comparing distributions. The chi2 test.
 
+### Chapter 2. Normality & comparing multiple groups.
 
-## Chapter 2. Normality & comparing distributions and multiple groups.
+- Testing for normality. The chi2-test.
+- Comparing more than two groups. ANOVA.
 
-- Normality and sample size. The z distribution and student's t distribution.
-- ANOVA. Comparing more than two groups.
-- Linear models in hypothesis testing.
+### Chapter 3. Multiple hypothesis correction.
 
-## Chapter 3. Multiple hypothesis correction & bayesian statstics.
+- Significance revisited. Error types in hypothess testing. 
+- Adjusted p-values. Bonferroni and BH coffection.
 
-- Significance revisited, error types and adjusted p-values. 
-- The Bonferroni and BH coffection.
-- Introduction to bayesian statistics.
+### Chapter 4. Introduction to bayesian statstics.
 
-## Setup
+- Bayesian probability. The Bayes' theorem.
+- Prior, likelihood, posterior. Probability as a degree of believe.
+- Bayesian inference and statistics. Posterior distribution and Bayes factor.
+
+### Setup
 
 We will be working with Visual Studio Code / RStudio as main editors. Although recommended, they do not need to be installed in your local computers, since we will use Codespaces provided by Github, which already implement an interface ready to program an execute the code.
 Notebook versions are also useful, such as Jupyter notebooks (for the Python version), or Rmd files (for the R version). 
 If you want to use notebooks for the practical sessions, we recommend install Anaconda from https://www.anaconda.com in advance of the workshop.
 
-## Getting Started
+### Getting Started
 
 1. Download this repository to your computer as a ZIP file and unpack it.
 
@@ -52,7 +59,7 @@ If you want to use notebooks for the practical sessions, we recommend install An
 4. Alternatively, you can run the notebooks online using Binder: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnpinney/sampling_and_hypothesis_testing/master?urlpath=lab)
 
-## Evaluation
+### Evaluation
 
 Your feedback is very important to the Graduate School as we are continually trying to improve the training we offer.
 
