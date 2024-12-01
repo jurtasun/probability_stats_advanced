@@ -11,7 +11,7 @@
 
 This course provides an intermediate level approach to the field of probability and statistical inference. 
 Building on top of the introductiory course [https://github.com/jurtasun/probability_stats_intro](https://github.com/jurtasun/probability_stats_intro), 
-the topics covered here will include deeper exploration of hypothesis testing, linear models, and briefly introduce bayesian statistics. 
+the topics covered here will include deeper exploration of hypothesis testing, inference, and briefly introduce bayesian statistics. 
 The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
 
 The course is organized in three chapters, covering the topics listed below. 
